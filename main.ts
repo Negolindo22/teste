@@ -1,0 +1,5 @@
+tiles.setCurrentTilemap(tilemap`level2`)
+scene.setBackgroundColor(2)
+let Smille = sprites.create(assets.image`Smille`, SpriteKind.Player)
+controller.moveSprite(Smille)
+scene.cameraFollowSprite(Smille)
